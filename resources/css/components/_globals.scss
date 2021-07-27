@@ -4,3 +4,14 @@
 * Tulevik
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//fuentes con REM 
+//font-size equal 10px
+html{
+    font-size: 62.5%;
+}
