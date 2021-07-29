@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Ranga&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="../resources/css/style.css">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
     </head>
     <body>
