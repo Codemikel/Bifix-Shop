@@ -1,0 +1,56 @@
+.product{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__title{
+        font-size: 2rem;
+        font-family: $secundary-font;
+    }
+
+    &__gallery{
+        display: grid;
+        grid-template-areas: "principal secondary" " principal third" "principal fourth";
+
+        & div:nth-child(1){
+            grid-area: principal;
+            height: 100%;
+            width: 100%;
+        }
+        & div:nth-child(2){
+            grid-area: secondary;
+            height: 100%;
+            width: 100%;
+        }
+        & div:nth-child(3){
+            grid-area: third;
+            height: 100%;
+            width: 100%;
+        }
+        & div:nth-child(4){
+            grid-area: fourth;
+            height: 100%;
+            width: 100%;
+        }
+        img{
+            height: inherit;
+            width: inherit;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__description{
+        display: flex;
+        justify-content: space-between;
+        &--components{
+            font-size: 1.5rem;
+            margin: 3rem 0;
+            font-family: $secundary-font;
+        }
+        &--contact{
+            font-size: 2rem;
+            font-family: $principal-font;
+        }
+    }
+}

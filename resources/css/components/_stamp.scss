@@ -1,0 +1,24 @@
+.product__stamp{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas: "stamp text" " . link";
+    div{
+        grid-area: stamp;
+        img{
+            height: 4rem;
+            width: 4rem;
+        }
+    }
+    h2{
+        grid-area: text;
+        font-size: 4rem;
+        font-family: $principal-font ;
+    }
+    a{
+        grid-area: link;
+        font-size: 2rem;
+        font-family: $secundary-font;
+        text-decoration: none;
+        color: #00B7C2;
+    }
+}
