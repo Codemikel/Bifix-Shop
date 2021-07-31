@@ -24,3 +24,7 @@ Route::get('/login', function (){
 Route::get('/requisitos', function (){
     return view('store/storeRequirements', ['title' => 'Requisitos']);
 });
+
+Route::get('/tuEspacio', function (){
+    return view('store/userAbstract', ['title' => 'Tu Espacio']);
+});
