@@ -1,0 +1,28 @@
+.requirements {
+    min-height: 80vh;
+    padding: 30px;
+    @include flex(center, space-around, row);
+
+    &__item {
+        font-size: 1.4rem;
+        font-family: $secundary-font;
+
+        h3, p {
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 30px;
+        }
+
+        p {
+            width: 50%;
+            margin: 0 auto 20px;
+        }
+
+        .product__stamp {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+}
