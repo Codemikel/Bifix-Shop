@@ -4,10 +4,19 @@
 * Tulevik
 */
 
-
+/*
+* Components
+*/
 @import "components/globals.scss";
 @import "components/header.scss";
-@import "components/similarProduct.scss";
-@import "components/article.scss";
+@import "components/similarProduct";
+@import "components/article";
 @import "components/footer.scss";
 @import "components/stamp.scss";
+
+
+/*
+* Views
+*/
+
+@import "store/storeIndex.scss";

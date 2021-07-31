@@ -17,9 +17,7 @@
     figcaption {
         width: 100%;
         height: 90px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex(center, center, row);
         grid-area: 2 / 1 / 3 / 2;
         background-color: rgba(0, 0, 0, 0.25);
     }

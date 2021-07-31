@@ -1,0 +1,20 @@
+.home {
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    display: grid;
+    grid-template-areas: 'product similar-product';
+    grid-template-columns: 70% 30%;
+
+    &__product {
+        grid-area: product;
+    }
+
+    &__similar-product {
+        grid-area: similar-product;
+        margin: auto 0;
+        height: 80%;
+        padding: 20px;
+        @include flex(center, space-around, column);
+    }
+}

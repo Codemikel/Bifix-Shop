@@ -1,8 +1,6 @@
 header{
-    display: flex;
     height: 90px;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center, row);
     background-color: $principal-color;
     h2{
         font-family: $principal-font;

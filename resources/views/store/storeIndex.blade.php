@@ -2,12 +2,19 @@
 
 @section('content')
 
-    @include('../components/article')
+    <section class="home">
 
-    @for($i = 0; $i < 3; $i++)
+        <article class="home__product">
+            @include('../components/article')
+        </article>
 
-    @include('../components/similarProduct')
+        <article class="home__similar-product">
+            @for($i = 0; $i < 3; $i++)
+                @include('../components/similarProduct')
+            @endfor
+        </article>
 
-    @endfor
+    </section>
+
 
 @endsection

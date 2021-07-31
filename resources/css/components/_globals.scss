@@ -15,8 +15,15 @@ $secundary-font: 'Questrial', sans-serif;
     box-sizing: border-box;
 }
 
-//fuentes con REM 
+//Fonts con REM
 //font-size equal 10px
 html{
     font-size: 62.5%;
+}
+
+@mixin flex($align, $justify, $direction) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
 }
