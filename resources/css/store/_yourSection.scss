@@ -1,0 +1,40 @@
+.espacio{
+    display: grid;
+    grid-template-areas: "titulo titulo" "compras ventas" "revision vendiendo";
+    margin: 1.5rem 4rem;
+    gap: 3rem;
+    &__title{
+        grid-area: titulo;
+        font-size: 2rem;
+        font-family: $secundary-font;
+        text-align: center;
+    }
+    .espacio__compras{
+        grid-area: compras;
+        h2{
+            font-size: 2rem;
+            font-family: $secundary-font;
+        }
+    }
+    .espacio__ventas{
+        grid-area: ventas;
+        h2{
+            font-size: 2rem;
+            font-family: $secundary-font;
+        }
+    }
+    .espacio__revision{
+        grid-area: revision;
+        h2{
+            font-size: 2rem;
+            font-family: $secundary-font;
+        }
+    }
+    .espacio__vendiendo{
+        grid-area: vendiendo;
+        h2{
+            font-size: 2rem;
+            font-family: $secundary-font;
+        }
+    }
+}

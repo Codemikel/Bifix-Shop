@@ -1,0 +1,20 @@
+.section__product{
+    display: grid;
+    grid-template-areas: "imagen nombre" "imagen vinculo";
+    &--image{
+        grid-area: imagen;
+        height: 140px;
+        width: 180px;
+    }
+    &--name{
+        grid-area: nombre;
+        font-size: 2.5rem;
+        font-family: $principal-font;
+    }
+    a{
+        grid-area: vinculo;
+        font-family: $secundary-font;
+        text-decoration: none;
+        color: blue;
+    }
+}
